@@ -16,6 +16,18 @@
       "input": "reset.scss",
       "output": "reset.min.css, reset.css",
       "command": "sass ./lib/scss/smalty.reset.scss ./dist/css/smalty.reset.css --no-source-map && sass ./lib/scss/smalty.reset.scss ./dist/css/smalty.reset.min.css --no-source-map -s compressed"
+    },
+    {
+      "name": "core",
+      "input": "core.scss",
+      "output": "smalty.core.css",
+      "command": "sass ./lib/scss/smalty.core.scss ./dist/css/smalty.core.css --no-source-map"
+    },
+    {
+      "name": "core min",
+      "input": "core.scss",
+      "output": "smalty.core.min.css",
+      "command": "sass ./lib/scss/smalty.core.scss ./dist/css/smalty.core.min.css --no-source-map -s compressed"
     }
   ]
 }
