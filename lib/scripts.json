@@ -1,0 +1,21 @@
+{
+  "compilers": [{
+      "name": "untouched reset",
+      "input": "reset.scss",
+      "output": "reset.css",
+      "command": "sass ./lib/scss/smalty.reset.scss ./dist/css/smalty.reset.css --no-source-map"
+    },
+    {
+      "name": "minified reset",
+      "input": "reset.scss",
+      "output": "reset.min.css",
+      "command": "sass ./lib/scss/smalty.reset.scss ./dist/css/smalty.reset.min.css --no-source-map -s compressed"
+    },
+    {
+      "name": "ALL reset",
+      "input": "reset.scss",
+      "output": "reset.min.css, reset.css",
+      "command": "sass ./lib/scss/smalty.reset.scss ./dist/css/smalty.reset.css --no-source-map && sass ./lib/scss/smalty.reset.scss ./dist/css/smalty.reset.min.css --no-source-map -s compressed"
+    }
+  ]
+}
