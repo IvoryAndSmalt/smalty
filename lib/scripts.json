@@ -28,6 +28,12 @@
       "input": "core.scss",
       "output": "smalty.core.min.css",
       "command": "sass ./lib/scss/smalty.core.scss ./dist/css/smalty.core.min.css --no-source-map -s compressed"
+    },
+    {
+      "name": "ALL core",
+      "input": "core.scss",
+      "output": "smalty.core.css, smalty.core.min.css",
+      "command": "sass ./lib/scss/smalty.core.scss ./dist/css/smalty.core.css --no-source-map && sass ./lib/scss/smalty.core.scss ./dist/css/smalty.core.min.css --no-source-map -s compressed"
     }
   ]
 }

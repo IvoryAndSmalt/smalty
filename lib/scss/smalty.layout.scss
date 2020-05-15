@@ -1,3 +1,16 @@
+.db{
+  display: block;
+}
+.di{
+  display: inline;
+}
+.dib{
+  display: inline-block;
+}
+.dif{
+  display: inline-flex;
+}
+
 .m1{
   margin: $sp-1;
 }
@@ -258,4 +271,39 @@
 
 .r5{
   border-radius: $r-5;
+}
+
+.jbetween{
+  justify-content: space-between;
+}
+.jaround{
+  justify-content: space-around;
+}
+.jevenly{
+  justify-content: space-evenly;
+}
+.jstart{
+  justify-content: flex-start;
+}
+.jend{
+  justify-content: flex-end;
+}
+.jcenter{
+  justify-content: center;
+}
+
+.alstart{
+  align-items: flex-start;
+}
+.alend{
+  align-items: flex-end;
+}
+.alcenter{
+  align-items: center;
+}
+.albaseline{
+  align-items: baseline;
+}
+.alstretch{
+  align-items: stretch;
 }
