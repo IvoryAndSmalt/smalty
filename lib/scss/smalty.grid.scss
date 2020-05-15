@@ -1,0 +1,189 @@
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(2, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+  grid-template-rows: repeat(2, minmax($gridminr, 1fr));
+  grid-auto-columns: 1fr;
+}
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(3, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+  grid-template-rows: repeat(3, minmax($gridminr, 1fr));
+  grid-auto-columns: 1fr;
+}
+.grid4{
+  display: grid;
+  grid-template-columns: repeat(4, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+  grid-template-rows: repeat(4, minmax($gridminr, 1fr));
+  grid-auto-columns: 1fr;
+}
+.grid5{
+  display: grid;
+  grid-template-columns: repeat(5, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+  grid-template-rows: repeat(5, minmax($gridminr, 1fr));
+  grid-auto-columns: 1fr;
+}
+.grid6{
+  display: grid;
+  grid-template-columns: repeat(6, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+  grid-template-rows: repeat(6, minmax($gridminr, 1fr));
+  grid-auto-columns: 1fr;
+}
+.grid7{
+  display: grid;
+  grid-template-columns: repeat(7, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+  grid-template-rows: repeat(7, minmax($gridminr, 1fr));
+  grid-auto-columns: 1fr;
+}
+.grid8{
+  display: grid;
+  grid-template-columns: repeat(8, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+  grid-template-rows: repeat(8, minmax($gridminr, 1fr));
+  grid-auto-columns: 1fr;
+}
+.grid9{
+  display: grid;
+  grid-template-columns: repeat(9, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+  grid-template-rows: repeat(9, minmax($gridminr, 1fr));
+  grid-auto-columns: 1fr;
+}
+.grid10{
+  display: grid;
+  grid-template-columns: repeat(10, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+  grid-template-rows: repeat(10, minmax($gridminr, 1fr));
+  grid-auto-columns: 1fr;
+}
+.grid11{
+  display: grid;
+  grid-template-columns: repeat(11, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+  grid-template-rows: repeat(11, minmax($gridminr, 1fr));
+  grid-auto-columns: 1fr;
+}
+.grid12{
+  display: grid;
+  grid-template-columns: repeat(12, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+  grid-template-rows: repeat(12, minmax($gridminr, 1fr));
+  grid-auto-columns: 1fr;
+}
+
+.gridcol2{
+  display: grid;
+  grid-template-columns: repeat(2, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+}
+.gridcol3{
+  display: grid;
+  grid-template-columns: repeat(3, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+}
+.gridcol4{
+  display: grid;
+  grid-template-columns: repeat(4, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+}
+.gridcol5{
+  display: grid;
+  grid-template-columns: repeat(5, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+}
+.gridcol6{
+  display: grid;
+  grid-template-columns: repeat(6, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+}
+.gridcol7{
+  display: grid;
+  grid-template-columns: repeat(7, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+}
+.gridcol8{
+  display: grid;
+  grid-template-columns: repeat(8, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+}
+.gridcol9{
+  display: grid;
+  grid-template-columns: repeat(9, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+}
+.gridcol10{
+  display: grid;
+  grid-template-columns: repeat(10, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+}
+.gridcol11{
+  display: grid;
+  grid-template-columns: repeat(11, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+}
+.gridcol12{
+  display: grid;
+  grid-template-columns: repeat(12, minmax($gridminc, 1fr));
+  grid-auto-columns: 1fr; 
+}
+
+.gridrow2{
+  display: grid;
+  grid-template-rows: repeat(2, minmax($gridminc, 1fr));
+  grid-auto-rows: 1fr; 
+}
+.gridrow3{
+  display: grid;
+  grid-template-rows: repeat(3, minmax($gridminc, 1fr));
+  grid-auto-rows: 1fr; 
+}
+.gridrow4{
+  display: grid;
+  grid-template-rows: repeat(4, minmax($gridminc, 1fr));
+  grid-auto-rows: 1fr; 
+}
+.gridrow5{
+  display: grid;
+  grid-template-rows: repeat(5, minmax($gridminc, 1fr));
+  grid-auto-rows: 1fr; 
+}
+.gridrow6{
+  display: grid;
+  grid-template-rows: repeat(6, minmax($gridminc, 1fr));
+  grid-auto-rows: 1fr; 
+}
+.gridrow7{
+  display: grid;
+  grid-template-rows: repeat(7, minmax($gridminc, 1fr));
+  grid-auto-rows: 1fr; 
+}
+.gridrow8{
+  display: grid;
+  grid-template-rows: repeat(8, minmax($gridminc, 1fr));
+  grid-auto-rows: 1fr; 
+}
+.gridrow9{
+  display: grid;
+  grid-template-rows: repeat(9, minmax($gridminc, 1fr));
+  grid-auto-rows: 1fr; 
+}
+.gridrow10{
+  display: grid;
+  grid-template-rows: repeat(10, minmax($gridminc, 1fr));
+  grid-auto-rows: 1fr; 
+}
+.gridrow11{
+  display: grid;
+  grid-template-rows: repeat(11, minmax($gridminc, 1fr));
+  grid-auto-rows: 1fr; 
+}
+.gridrow12{
+  display: grid;
+  grid-template-rows: repeat(12, minmax($gridminc, 1fr));
+  grid-auto-rows: 1fr; 
+}
